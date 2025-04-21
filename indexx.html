@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .features {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card .icon {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.card p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+</style>
+<body>
+    
+        <section class="features">
+            <h2 class="section-title anim">Amazing Features</h2>
+            <div class="feature-cards">
+                <div class="card anim">
+                    <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="Connect" class="icon">
+                    <h3>Genuine Connections</h3>
+                    <p>Meet people who share your interests and values in a safe and friendly space.</p>
+                </div>
+                <div class="card anim">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Share" class="icon">
+                    <h3>Creative Sharing</h3>
+                    <p>Post stories, photos, and videos with powerful tools for self-expression.</p>
+                </div>
+                <div class="card anim">
+                    <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Privacy" class="icon">
+                    <h3>Privacy First</h3>
+                    <p>Your data is yours. Customize what you share and control who sees it.</p>
+                </div>
+            </div>
+        </section>
+        
+    
+</body>
+</html>
